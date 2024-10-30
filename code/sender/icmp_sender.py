@@ -6,5 +6,4 @@ def send_icmp_packet():
     if response:
         response.show()
 
-if _name_ == "_main_":
-    send_icmp_packet()
+send_icmp_packet()
