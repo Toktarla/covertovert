@@ -1,13 +1,14 @@
 from scapy.all import *
 
-def handle_packet(packet):
+def packet_callback(packet):
+    if packet.haslayer(ICMP) and packet[IP].ttl == 1 and packet[ICMP].type == 8:
+        print("Received ICMP:")
+        packet.show()
 
-    if packet.haslayer(ICMP) and packet[ICMP].type == 8:  
-        print("ICMP packet received:")
-        packet.show()  
-
-def start_receiver():
-    sniff(filter="icmp", prn=handle_packet, store=0)
+def start_sniffing():
+    print("Listening for ICMP packets:")
+    sniff(filter="icmp", prn=packet_callback)
 
 if __name__ == "__main__":
-    start_receiver()
+    start_sniffing()
+

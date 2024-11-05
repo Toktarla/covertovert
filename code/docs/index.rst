@@ -6,7 +6,9 @@
 Basic ICMP Documentation
 ========================
 
-Please add your names and group ID here by editing `index.rst` in the docs folder.
+Andi Abrashi, Toktar Sultan
+Group 13
+
 
 
 .. toctree::
