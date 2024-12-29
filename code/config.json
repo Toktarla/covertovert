@@ -1,0 +1,18 @@
+{
+  "covert_channel_code": "CSC-PSV-ICMP-ID",
+  "send": {
+    "parameters": {
+      "parameter1": "172.18.0.3",  
+      "parameter2": "SecretMessage123",  
+      "log_file_name": "CovertChannelSender.log"  
+    }
+  },
+  "receive": {
+    "parameters": {
+      "parameter1": "172.18.0.2",  
+      "parameter2": "icmp", 
+      "parameter3": 1, 
+      "log_file_name": "CovertChannelReceiver.log"  
+    }
+  }
+}
