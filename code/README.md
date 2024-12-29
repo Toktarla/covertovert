@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Covert Channel Implementation Using ICMP Packets
 
 This project implements a covert communication channel that transfers binary data using ICMP packets. The channel capacity is maximized by using a sequence of packets with a checksum mechanism to ensure reliability. The covert channel is designed to send a 128-bit binary message in the shortest time possible, and its capacity is measured in bits per second.
@@ -89,3 +90,8 @@ The documentation provides detailed information about the code structure, the fu
 
 Andi Abrashi, Toktar Sultan
 Group 13
+=======
+# Replace with Your Covert Channel Name
+
+Explain your study in detail as you share your work with the community in a public repository. Anyone should understand your project when read it without having a previous information about the homework.
+>>>>>>> 1ac0c3423326f5cb3c545c3e0b74a86c551d56ae
