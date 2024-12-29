@@ -88,10 +88,6 @@ The documentation provides detailed information about the code structure, the fu
 
 ## Authors
 
-Andi Abrashi, Toktar Sultan
-Group 13
-=======
-# Replace with Your Covert Channel Name
+### Andi Abrashi, Toktar Sultan
+### Group 13
 
-Explain your study in detail as you share your work with the community in a public repository. Anyone should understand your project when read it without having a previous information about the homework.
->>>>>>> 1ac0c3423326f5cb3c545c3e0b74a86c551d56ae
