@@ -91,3 +91,4 @@ The documentation provides detailed information about the code structure, the fu
 ### Andi Abrashi, Toktar Sultan
 ### Group 13
 
+Hocam, we are Erasmus students, and we’re doing our best to keep up with the coursework and adapt to the new environment. If possible, we kindly ask for your understanding and a bit of forgivness when evaluating our work, please.
